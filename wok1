@@ -21,7 +21,7 @@ getgenv().Settings = {
         },
         ["NOTIF"] = true,
         ["AUTOPRED"] = true,
-        ["AdvancedAutoPred"] = false,
+        ["AdvancedAutoPred"] = true,
         ["FOV"] = inf,
         ["RESOLVER"] = false,
         ["LOCKTYPE"] = "Namecall",
@@ -131,9 +131,9 @@ getgenv().Settings = {
             ["End"] = 100 
         },
         ["ColorCorrection"] = {
-            ["Enabled"] = false,
+            ["Enabled"] = true,
             ["Brightness"] = 0,
-            ["Saturation"] = 5,
+            ["Saturation"] = 20,
             ["Contrast"] = 2,
         },
     },
@@ -161,7 +161,7 @@ local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/
 
 function SendNotification(text)
     Notification:Notify(
-        {Title = "Imperial V3", Description = "By Las (Lion) - "..text},
+        {Title = "niggas", Description = "FuckNigga - "..text},
         {OutlineColor = Color3.fromRGB(115,0,0),Time = 3, Type = "image"},
         {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(115,0,0)}
     )
