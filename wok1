@@ -7,7 +7,7 @@ local inf = math.huge
 getgenv().Settings = {
     ["FearLas"] = {
         ["Enabled"] = false,
-        ["DOT"] = true,
+        ["DOT"] = false,
         ["AIRSHOT"] = false,
         ["Prediction"] = {
             ["Horizontal"] = 0.185,
@@ -20,7 +20,7 @@ getgenv().Settings = {
             },
         },
         ["NOTIF"] = true,
-        ["AUTOPRED"] = false,
+        ["AUTOPRED"] = true,
         ["AdvancedAutoPred"] = false,
         ["FOV"] = inf,
         ["RESOLVER"] = false,
