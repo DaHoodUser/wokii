@@ -263,7 +263,7 @@ function calculateVelocity(initialPos, finalPos, timeInterval)
     end)
  local Tool = Instance.new("Tool")
 Tool.RequiresHandle = false
-Tool.Name = "Lock Tool"
+Tool.Name = "nigger clicker"
 Tool.Parent = game.Players.LocalPlayer.Backpack
 local player = game.Players.LocalPlayer
 local function connectCharacterAdded()
@@ -362,7 +362,7 @@ SendNotification("Target: "..Plr.Character.Humanoid.DisplayName)
                 end
             end
    else
-  SendNotification("Cam/Target not enabled!")
+  SendNotification("stupid nigga")
         end
     end)
  
@@ -520,7 +520,7 @@ end
 
 LocalHL.Parent = Plr.Character
 LocalHL.FillTransparency = 0.2
-LocalHL.FillColor = Color3.fromRGB(115,0,0)
+LocalHL.FillColor = Color3.fromRGB(50,50,50)
 LocalHL.OutlineColor = Color3.fromRGB(255,255,255)
 
         else
